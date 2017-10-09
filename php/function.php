@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Pivz
- * Date: 09.10.2017
- * Time: 13:45
- */
+//echo "document.getElementById('date-holder').innerHTML = '".Date('Y')."';";
+//function item()
+//{
+    $item = "<div class='item'>";
+    for ($i = 0; $i <= 10; $i++) {
+        $item .= "test";
+    }
+    $item .= "</div>";
+    echo $item;
+//}
